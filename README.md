@@ -15,7 +15,7 @@
 > [Falconn repository](https://falconn-lib.org/)
 
 #### Reading 
-> [Practical and Optimal LSH for Angular Distance](https://arxiv.org/pdf/1509.02897.pdf)
+> [Practical and Optimal LSH for Angular Distance](https://arxiv.org/pdf/1509.02897.pdf) well explained in this [video](https://www.youtube.com/watch?v=yIkyeackISs)
 
 ### LPH
 #### Reading
