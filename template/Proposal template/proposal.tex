@@ -1,0 +1,58 @@
+%Proposal template for the 16th Student Colloquium Groningen
+%See the presentation introduction-Kramer for an example of a proposal
+\documentclass[a4paper]{article}
+\usepackage[margin=25mm]{geometry}
+\usepackage{lipsum} %generate random text
+\pagenumbering{gobble} %deactivate page-numbering
+\newcommand{\emptyline} %insert an empty line
+    {
+    \vskip 0.5cm \noindent
+    }
+    
+\newcommand{\newtitle} %title format
+    {
+    \title{\textbf{Title}} %Title of the research/paper
+    \author{Author1 %First author/presenter
+            s1234567 %student-number
+            \\
+            Author2 %Second author/presenter
+            s2345678 %student-number 
+            \\\\
+            University of Groningen}
+            \date{} %omit the date
+    }
+    
+\newtitle
+\begin{document}
+\maketitle
+\begin{abstract} %200-250 word description of the research/paper
+    %1.background of the topic, plus niche in the state of knowledge so far
+    \noindent 
+    \lipsum[1] %random text
+    \emptyline
+    %2.your approach of the topic what’s new and important in this approach
+    \lipsum[2] %random text
+    \emptyline
+    %3.details of your approach/methodology and expected findings
+    \noindent 
+    \lipsum[3] %random text
+\end{abstract} 
+\emptyline
+\textbf{\textit{Keywords:}} 
+\\\textbf{\textit{Field of research:}}
+\\\textbf{\textit{Topic:}} 
+\\\textbf{\textit{Focus / research question:}} 
+\\\textbf{\textit{Expected findings / results:}}
+
+%References(optional)
+\bibliographystyle{abbrv}
+
+%use following to insert a reference in your abstract (only the cited references of proposal.bib will be shown)
+%\cite{kitware2003} %insert reference to kitware2003
+
+%use following if all content of proposal.bib should be shown 
+\nocite{*}
+
+\bibliography{proposal}
+
+\end{document}
